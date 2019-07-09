@@ -70,7 +70,7 @@ html,body{
     z-index: 99;
     width: 21px;
     height: 11px;
-
+    transition: 1s left;
 }
 
 #content{
@@ -108,4 +108,23 @@ html,body{
 }
 .content-lists>li:nth-child(5) {
     background-image: url('../imgs/bg5.jpg');
+}
+
+.content-lists>li>div{
+    position: absolute;
+    /*left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;*/
+    /*left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);*/
+    left: 50%;
+    top: 50%;
+    margin-left: -550px;
+    margin-top: -260px;
+    width: 1100px;
+    height: 520px;
+    background-color: pink;
 }
